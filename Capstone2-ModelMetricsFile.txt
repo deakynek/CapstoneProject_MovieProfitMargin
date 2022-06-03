@@ -1,0 +1,75 @@
+Model Features:
+'runtime',
+'vote_average', 
+'actors_AveRating_average',
+       	'actors_AveRating_total', 
+'actors_RankedAveRating_average',
+       	'actors_RankedAveRating_total', 
+'actors_Top3AveRating_total',
+
+      	'actors_VoteAve_average', 
+‘actors_VoteAve_total',
+      	'actors_RankedVoteAve_average', 
+'actors_RankedVoteAve_total',
+       	'actors_Top3VoteAve_total',
+ 
+‘actors_HistAve_average',
+       	'actors_HistAve_total', 
+'actors_RankedHistAve_average',
+       	'actors_RankedHistAve_total',
+'actors_Top3HistAve_total',
+
+       	'actors_AllMovieAve_average', 
+'actors_AllMovieAve_total',
+      	'actors_RankedAllMovieAve_average', 
+'actors_RankedAllMovieAve_total',
+      	'actors_Top3RankedAllMovieAve_total',
+
+'actors_AllMovieVoteAve_average',
+       	'actors_AllMovieVoteAve_total', 
+'actors_RankedAllMovieVoteAve_average',
+       	'actors_RankedAllMovieVoteAve_total',
+       	'actors_Top3RankedAllMovieVoteAve_total',
+
+'directorTot_AveRating',
+       	'directorTot_VoteAveRating', 
+'directorTot_HistAveRating',
+       	'directorTot_AllAveRating', 
+'directorTot_AllVoteAveRating',
+
+      	'screenwriterTot_AveRating', 
+'screenwriterTot_VoteAveRating',
+      	 'screenwriterTot_HistAveRating', 
+'screenwriterTot_AllAveRating',
+       	'screenwriterTot_AllVoteAveRating', 
+
+'editorTot_AveRating',
+       	'editorTot_VoteAveRating',
+'editorTot_HistAveRating',
+       	'editorTot_AllAveRating', 
+'editorTot_AllVoteAveRating',
+
+       	'keywordTot_AveRating', 
+'genreTot_AveRating',
+
+Output
+	‘profitRatio_boxcox’
+
+
+Model Parameters:
+	Random Forest Regressor:
+		'max_depth': 38,
+ 		 'max_features': 39,
+  		'n_estimators': 160
+
+Performance:
+	Train Set:
+		MSE: 0.33
+		MAE: 0.43
+		R^2: 0.88
+	Test Set:
+		MSE: 2.76
+		MAE: 1.19
+		R^2: 0.166
+
+	
