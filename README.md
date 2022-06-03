@@ -6,11 +6,11 @@ Using a dataset of movies an attempt was made to build a model to predict box of
 
 Data
 ------
-[Kaggle - The Movies Dataset] (https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) - (cast, crew, genres, user ratings) 
+[Kaggle - The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) - (cast, crew, genres, user ratings) 
 
-[The Movie DB] (https://www.themoviedb.org/) - (revenue, budget)
+[The Movie DB](https://www.themoviedb.org/) - (revenue, budget)
 
-[Box Office Mojo] (https://www.boxofficemojo.com/) - (Domestic Box Office sales) 
+[Box Office Mojo](https://www.boxofficemojo.com/) - (Domestic Box Office sales) 
 
 
 Regression Models Attempted
@@ -31,14 +31,13 @@ Model Performance
 ------
 **Output Feature:** 
 Box Cox Logrithmic transformation of Box Office Profit Ratio (Box Office Revenue/ Budget)
-Roughly normal distribution
-- mean: 0
-- std dev: 2.2
+Roughly normal distribution - mean: 0.0 std dev: 2.2
 
 **Best Performance**
-*Data Set*	*R^2*	*MSE*	*MAE*
-Training	0.88	0.33	0.43
-Test		0.16	2.76	1.19
+*Data Set*|*R^2*|*MSE*|*MAE*
+--- | --- | --- | ---
+Training | 0.88	| 0.33 | 0.43
+Test | 0.16	| 2.76 | 1.19
 
 Conclusion
 -----
